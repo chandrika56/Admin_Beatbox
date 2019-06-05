@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="upload_urls">Upload URLS</string>
+    <string name="link6">Link6</string>
+    <string name="link5">Link5</string>
+    <string name="link4">Link4</string>
+    <string name="link3">Link3</string>
+    <string name="link2">Link2</string>
+    <string name="submit">Submit</string>
+    <string name="link1">Link1</string>
+    <string name="title_activity_nav">Nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

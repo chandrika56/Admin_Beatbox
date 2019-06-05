@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.admin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Nav"
+            android:label="ADMIN APP"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viralvid" />
+        <activity android:name=".Learning_vid" />
+        <activity android:name=".Solo" />
+        <activity android:name=".Tag" />
+        <activity android:name=".Smoke" />
+        <activity android:name=".Loop" />
+        <activity android:name=".Crew" />
+        <activity android:name=".jamming" />
+        <activity android:name=".Studio" />
+        <activity android:name=".Beats_club" />
+        <activity android:name=".All_vid" />
+        <activity android:name=".Beatbox_classes" />
+        <activity android:name=".Events" />
+        <activity android:name=".Meetup" />
+        <activity android:name=".Eve" />
+        <activity android:name=".Meet" />
+        <activity android:name=".Viewtutor" />
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beatbox_classes">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="Name of Beatboxer"
+        android:inputType="textPersonName"
+        android:visibility="visible"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:ems="10"
+        android:hint="Course Duration"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:ems="10"
+        android:hint="Acheivements"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="165dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="104dp"
+        android:ems="10"
+        android:hint="Entry Fee"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="11dp"
+        android:text="Upload Class Details" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="218dp"
+        android:ems="10"
+        android:hint="Timings"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

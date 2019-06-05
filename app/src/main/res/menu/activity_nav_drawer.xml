@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/new_vid"
+
+            android:title="New Videos" />
+        <item
+            android:id="@+id/viral"
+
+            android:title="Viral Videos" />
+        <item
+            android:id="@+id/learn"
+
+            android:title="Learning Videos" />
+        <item
+            android:id="@+id/solo"
+
+            android:title="Solo Beatbox" />
+        <item
+            android:id="@+id/tag"
+
+            android:title="Tag Beatbox" />
+        <item
+            android:id="@+id/smoke"
+
+            android:title="7 to Smoke Beatbox" />
+        <item
+            android:id="@+id/loop"
+
+            android:title="LoopStation Beatbox" />
+        <item
+            android:id="@+id/crew"
+
+            android:title="Crew Beatbox" />
+        <item
+            android:id="@+id/jam"
+
+            android:title="Jamming Beatbox" />
+        <item
+            android:id="@+id/studio_sess"
+
+            android:title="Studio session" />
+        <item
+            android:id="@+id/Beat_club"
+
+            android:title="Beats Club videos" />
+        <item
+            android:id="@+id/all_vid"
+
+            android:title="All videos" />
+        <item
+            android:id="@+id/classes"
+
+            android:title="Beatbox Classes" />
+        <item
+            android:id="@+id/event"
+
+            android:title="Beatbox Events" />
+        <item
+            android:id="@+id/meetup"
+
+            android:title="Beatbox Meetups" />
+        <item
+            android:id="@+id/tutor"
+
+            android:title="Tutors" />
+        <item
+            android:id="@+id/viewtutor"
+
+            android:title="ViewTutors" />
+        <item
+            android:id="@+id/eve"
+
+            android:title="ViewEvent" />
+        <item
+            android:id="@+id/meet"
+
+            android:title="ViewMeetup" />
+    </group>
+
+
+
+</menu>
